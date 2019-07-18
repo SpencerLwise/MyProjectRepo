@@ -1,17 +1,17 @@
-background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+body {background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 linear-Gradient (to bottom),
-cover: 200px 100px;}
+cover:;}
 
 Id{font-size: large;}
 
 h1 {height: 600 px;}
 
-DoD {height: 200px,
+.DoD {height: 200px,
 img: src 200px;}
 
 p,h1,h2,li{color:navy,}
 
-Classic{
+.Classic{
     display: flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
@@ -20,7 +20,7 @@ Classic{
     
 
 }
-Premier
+.Premier
     display: flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
