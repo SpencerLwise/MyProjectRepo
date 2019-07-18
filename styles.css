@@ -1,20 +1,29 @@
-background-image: url("../../media/examples/broughnutsbackground.jpeg");
+background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 linear-Gradient (to bottom),
-cover: 200px 100px,
+cover: 200px 100px;}
 
-.h1 {height: 600 px;}
-.doughnutOftheDay {height: 200px,
-img-src}
-.classic
+Id{font-size: large;}
+
+h1 {height: 600 px;}
+
+DoD {height: 200px,
+img: src 200px;}
+
+p,h1,h2,li{color:navy,}
+
+Classic{
     display: flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
     height: 250 px,
+    img: src 200px;}
+    
 
 }
-.premier
+Premier
     display: flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
     height: 250 px,
+    img: src 200px;}
 }
