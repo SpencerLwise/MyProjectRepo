@@ -16,14 +16,13 @@ h1 {height: 600 px;
 font-size: 15px;
 font-style: normal}
 
-.DoD {height: 200px,
-img: src 200px;}
 
 p,h1,h2,li{color:navy,
 font-size:medium}
 
 .Classic{
-    display: flex,
+    display:center,
+     flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
     height: 250 px,
@@ -31,8 +30,9 @@ font-size:medium}
     
 
 }
-.Premier
-    display: flex,
+.Premier{
+    display:center,
+     flex,
     flex-direction: row-reverse,
     flex-wrap: wrap,
     height: 250 px,
