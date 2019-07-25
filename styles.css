@@ -1,10 +1,20 @@
-body {background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+body {
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-style: normal;
+}
+background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 linear-Gradient (to bottom),
 cover:;}
 
 id {font-size: large;}
 
-h1 {height: 600 px;}
+h1 {height: 600 px;
+font-size: 15px;
+font-style: normal}
 
 .DoD {height: 200px,
 img: src 200px;}
