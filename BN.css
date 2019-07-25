@@ -1,0 +1,44 @@
+
+body {
+    font-family: "proxima-nova";
+    font-size: 15px;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-style: normal;
+
+background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+id {font-size: 200 px;
+display:center;}
+
+.topnav a {
+    float: center;
+    color: navy;
+    background-color:goldenrod;
+    overflow: hidden;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {height: 600 px;
+font-size: 15px;
+font-style: normal}
+
+
+p{
+    color:navy;
+font-size:medium}
+
+.Classic {
+   display:inline-block;
+    height: 250 px;
+    }
+    
+.Premier {
+    display: inline-block;
+    height: 250 px;
+    }
+}
