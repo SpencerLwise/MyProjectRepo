@@ -2,14 +2,15 @@ body {background-image: url(https://images.pexels.com/photos/1330645/pexels-phot
 linear-Gradient (to bottom),
 cover:;}
 
-Id{font-size: large;}
+id {font-size: large;}
 
 h1 {height: 600 px;}
 
 .DoD {height: 200px,
 img: src 200px;}
 
-p,h1,h2,li{color:navy,}
+p,h1,h2,li{color:navy,
+font-size:medium}
 
 .Classic{
     display: flex,
