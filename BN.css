@@ -20,22 +20,22 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
 }
 
 .h1 {
 font-size: 15%;
 font-style: normal}
 
-.form{
-    
+.form{ 
     width:30px;
     padding: 20px 15px;
     background-color:goldenrod;
 }
 .p{
     color:navy;
-font-size:125% }
+font-size:125%;
+font-weight: 400;}
 
 .Center{
     display: block;
