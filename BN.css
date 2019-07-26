@@ -9,11 +9,11 @@ body {
 background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-id {font-size: 200 px;
-display:center;}
-
 .topnav a {
-    float: center;
+    display: block;
+    width:50%;
+    margin-left: auto;
+    margin-right:auto;
     color: navy;
     background-color:goldenrod;
     overflow: hidden;
@@ -23,22 +23,23 @@ display:center;}
     font-size: 17px;
 }
 
-h1 {height: 600 px;
-font-size: 15px;
+.h1 {
+font-size: 15%;
 font-style: normal}
 
-
-p{
-    color:navy;
-font-size:medium}
-
-.Classic {
-   display:inline-block;
-    height: 250 px;
-    }
+.form{
     
-.Premier {
-    display: inline-block;
-    height: 250 px;
-    }
+    width:30px;
+    padding: 20px 15px;
+    background-color:goldenrod;
+}
+.p{
+    color:navy;
+font-size:125% }
+
+.Center{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 55%;
 }
