@@ -29,19 +29,6 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
     color: navy;
 }
 
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-      position: absolute;
-      right: 10;
-      top: 10;
-    }
-    .topnav.responsive a {
-      float: right;
-      display: block;
-      text-align: left;
-    }
-  }
 
  .button{
      display: block;
