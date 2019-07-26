@@ -15,7 +15,7 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Styles nav bar*/
   .topnav a {
     float: left;
     display: block;
@@ -27,19 +27,19 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
 
   }
   
-  /* Change the color of links on hover */
+  /* Color changes with hover*/
   .topnav a:hover {
     background-color:navy;
     color: oldlace;
   }
   
-  /* Add an active class to highlight the current page */
+  /* highlights current page */
   .topnav a.active {
     background-color: goldenrod;
     color: navajowhite;
   }
   
-  /* Hide the link that should open and close the topnav on small screens */
+  
   .topnav .icon {
     display: none;
   }
