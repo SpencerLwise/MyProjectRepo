@@ -10,7 +10,7 @@ body {
 background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-.topnav a {
+.navbar a {
     display:block;
     width:50%;
     margin-left: auto;
@@ -21,12 +21,14 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    position:fixed;
     font-size: 30px;
 }
 .topnav a:hover {
     background-color:navajowhite;
     color: black;
-  }
+}
+
  .button{
      display: block;
      margin-left:auto;

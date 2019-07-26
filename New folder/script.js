@@ -1,21 +1,20 @@
-function createParagraph() {
-    let para = document.createElement('p');
-    para.textContent = 'You clicked the button!';
-    document.body.appendChild(para);
-  }
-  
-  const buttons = document.querySelectorAll('button');
-  
-  for(let i = 0; i < buttons.length ; i++) {
-    buttons[i].addEventListener('click', createParagraph);
-  }
-
-
 
 const button = document.querySelector('button');
 
 button.onclick = function() {
   let name = prompt('What is your name?');
+
   alert('Hello ' + name + ', nice to see you!');
- let  
+ 
+
+}
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
 }
