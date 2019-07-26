@@ -7,7 +7,7 @@ button.onclick = function() {
   alert('Hello ' + name + ', nice to see you!');
  
 
-}
+
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;

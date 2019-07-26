@@ -10,7 +10,7 @@ body {
 background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
-.navbar a {
+.topnav a {
     display:block;
     width:50%;
     margin-left: auto;
@@ -26,8 +26,22 @@ background-image: url(https://images.pexels.com/photos/1330645/pexels-photo-1330
 }
 .topnav a:hover {
     background-color:navajowhite;
-    color: black;
+    color: navy;
 }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 10;
+      top: 10;
+    }
+    .topnav.responsive a {
+      float: right;
+      display: block;
+      text-align: left;
+    }
+  }
 
  .button{
      display: block;
