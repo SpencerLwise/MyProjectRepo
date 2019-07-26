@@ -1,11 +1,4 @@
 
-const button = document.querySelector('button');
-button.onclick = function() {
-  let name = prompt('What is your name?');
-sssalert('Hello ' + name + ', nice to see you!');}
- 
-
-
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -15,4 +8,12 @@ window.onscroll = function() {
     document.getElementById("navbar").style.top = "-50px";
   }
   prevScrollpos = currentScrollPos;
-}
+
+}const button = document.querySelector('button');
+button.onclick = function() {
+  let name = prompt('What is your name?');
+sssalert('Hello ' + name + ', nice to see you!');}
+ 
+
+
+
